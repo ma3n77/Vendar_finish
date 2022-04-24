@@ -1,0 +1,290 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Century Gothic', sans-serif;
+}
+
+body {
+    background-image: url(./css/3f.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.title {
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Bahnschrift', sans-serif;
+}
+
+.title-sub {
+    color: white;
+    margin-top: 45px;
+    text-align: center;
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.log-title {
+    width: 70px;
+    height: 60px;
+}
+
+hr {
+    width: 50%;
+    height: 2.5px;
+    border: 0 none;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+}
+
+/* Links */
+.flex-watch {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.watch {
+    list-style: none;
+    margin: 15px;
+    padding: 30px;
+    background-color: rgb(131, 128, 128);
+    border-radius: 10px;
+    transition: all ease 0.5s;
+}
+
+.watch a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-family: 'Bahnschrift', sans-serif;
+}
+
+p {
+    font-family: 'Bahnschrift', sans-serif;
+}
+
+.watch:hover {
+    border-radius: 30px;
+}
+
+/* --------- Navbar  --------- */
+
+.navbar {
+    /* background-color: #272727; */
+    width: 100%;
+    height: 75px;
+}
+
+.nav-items {
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.Contact-us {
+    color: black;
+    display: inline-block;
+    margin: 12px;
+    font-size: 30px;
+}
+
+.Contact-us a {
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    transition: ease;
+    transition-duration: 0.4s;
+    font-family: 'Century Gothic', sans-serif;
+    margin-left: 25px;
+    border-radius: 12px;
+    width: 900px;
+}
+
+.Contact-us a:hover {
+    color: lightgray;
+}
+
+.About-us {
+    color: white;
+    display: inline-block;
+    margin: 12px;
+    font-size: 30px;
+}
+
+.About-us a {
+    text-decoration: none;
+    color: white;
+    transition: ease;
+    transition-duration: 0.4s;
+    font-family: 'Century Gothic', sans-serif;
+    font-weight: 900;
+    margin-left: 25px;
+}
+
+.About-us a:hover {
+    color: lightgray;
+} 
+
+.Home {
+    color: white;
+    display: inline-block;
+    margin: 12px;
+    font-size: 30px;
+    font-family: 'Century Gothic', sans-serif;
+    font-weight: 900;
+    font-weight: bolder;
+}
+
+.Home a {
+    text-decoration: none;
+    color: white;
+    transition: ease;
+    transition-duration: 0.4s;
+    font-family: 'Century Gothic', sans-serif;
+    font-weight: 900;
+    margin-left: 25px;
+}
+
+.Home a:hover {
+    color: lightgray;
+}
+
+.logo img {
+    float: left;
+    height: 80px;
+    width: 270px;
+    transition: ease;
+    transition-duration: 0.4s;
+}
+
+
+
+.footer {
+    padding: 40px 0px;
+    background-color: #272727;
+    position: sticky;
+    top: 100%;
+}
+ 
+.footer .socials {
+    text-align: center;
+    padding-bottom: 25px;
+    color: white;
+}
+
+.footer .socials a {
+    font-size: 30px;
+    color: inherit;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+
+.footer .socials a:hover {
+    opacity: 100%;
+}
+
+.copy {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: lightgray;
+}
+
+.container {
+    min-height: 100vh;
+}
+
+
+@media (max-width: 480px) { 
+    .container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .Home a {
+        font-size: 16px;
+        margin-left: 0;
+    }
+
+    .Contact-us a {
+        font-size: 16px;
+        margin-left: 0;
+    }
+
+    .About-us a {
+        font-size: 16px;
+        margin-left: 0;
+    }
+
+    .nav-items {
+        padding: 0px;
+    }
+
+    .navbar {
+        height: 55px;
+        display: flex;
+        justify-content: center;
+    }
+
+    hr {
+        width: 60%;
+    }
+
+    .logo img {
+        width: 270px;
+        height: 75px;
+    }
+
+    .logo {
+        justify-content: center;
+    }
+
+    .log-title {
+        width: 40px;
+        height: 30px;
+    }
+
+    .title-sub {
+        font-size: 22px;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .container {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (max-width: 1280px) {
+    .container {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (min-width: 1281px) {
+    .container {
+        width: 100%;
+        height: 100%;
+    }
+}
